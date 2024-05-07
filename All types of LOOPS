@@ -1,0 +1,40 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebDevelopment</title>
+</head>
+<body>
+    <nav class="heading">
+        <center><h1>This page is only for Practice purpose</h1></center>
+        </nav>
+    </nav>
+    <div class="contatiner">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus rem quae voluptatibus excepturi soluta fuga dolores quas voluptas a sequi! Laudantium, tenetur expedita. Explicabo iste ad possimus doloremque, culpa ut.    
+    </div>
+    <div id="id">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, velit. Neque hic adipisci dolore nam reiciendis nihil inventore impedit! Illo corporis laborum consequuntur accusamus omnis ea totam, tempora officia iure!
+    </div>
+ <script>
+ let arr=["Rohit","Virat","rahul", "Jadeja","Dhoni","Bhumra","Insant","Shami","Bhumraha"];
+            arr.forEach(element => {
+                console.log(element);
+            });
+            for (const value of arr) {
+                console.log(value);
+            }
+            let player={
+                player1:"Rohit",
+                palyer2:"Virat",
+            };
+         for (const key in player) {
+           
+            console.log(`palyers name is ${key}: ${player[key]}`);
+                
+            }
+          
+            
+    </script>
+</body>
+</html>
